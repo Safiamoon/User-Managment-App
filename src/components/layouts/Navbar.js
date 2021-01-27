@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
             <Link className="navbar-brand" href="/">
                 User Managment App
@@ -31,11 +31,6 @@ const Navbar = () => {
                     <li className="nav-item">
                         <NavLink className="nav-link" exact to="/about">
                             About
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink className="nav-link" exact to="/contact">
-                            Contact
                         </NavLink>
                     </li>
                 </ul>

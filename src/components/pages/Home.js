@@ -26,7 +26,7 @@ const Home = () => {
             <div className="py-4">
                 <h1>Home Page</h1>
                 <table className="table border shadow">
-                    <thead className="thead-dark">
+                    <thead className="thead-light">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Name</th>

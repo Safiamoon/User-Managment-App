@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
 import Navbar from './components/layouts/Navbar';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import NotFound from './components/pages/NotFound';
@@ -18,7 +17,6 @@ function App(props) {
       <Switch>
         <Route exact path="/" component={Home}></Route>
         <Route exact path="/about" component={About}></Route>
-        <Route exact path="/contact" component={Contact}></Route>
         <Route exact path="/users/add" component={AddUser}></Route>
         <Route exact path="/users/edit/:id" component={EditUser}></Route>
         <Route exact path="/users/:id" component={User}></Route>
